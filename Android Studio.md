@@ -10,5 +10,5 @@
      cd DynamicLoadApk
      gradlew :main-plugin-a:uploadDebug
      
-####上传路径在根目录下build.gradle修改
-    def dlPath = '/sdcard/DynamicLoadHost'
+####上传路径在`根目录下build.gradle`修改
+    def dlPath = '/sdcard/android/DynamicLoad'
